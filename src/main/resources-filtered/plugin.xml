@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <!-- http://download.igniterealtime.org/openfire/docs/latest/documentation/plugin-dev-guide.html -->
+  <class>${plugin.class}</class>
+  <name>${plugin.name}</name>
+  <description>${plugin.description}</description>
+  <author>${plugin.author}</author>
+  <version>${project.version}</version>
+  <date>${plugin.date}</date>
+  <url>${project.url}</url>
+  <minServerVersion>${pluin.minServerVersion}</minServerVersion>
+  <!--<databaseKey>${plugin.databaseKey}</databaseKey>-->
+  <!--<databaseVersion>${plugin.databaseVersion}</databaseVersion>-->
+  <!--<parentPlugin>${plugin.parentPlugin}</parentPlugin>-->
+  <licenseType>${plugin.licenseType}</licenseType>
+  <adminconsole>
+  </adminconsole>
+</plugin>
